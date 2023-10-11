@@ -5,7 +5,7 @@ nameC=false
 skipName=false
 
 echo "Welcome to github overwrite forker"
-echo "What Repository should this affect (will on work on YOUR repositorys *nice try*)"
+echo "(will on work on YOUR repositorys *nice try*)"
 read -p "[Link for repo to fork]#> " testie
 
 if [[ $testie == "deleteAll" ]]; then
