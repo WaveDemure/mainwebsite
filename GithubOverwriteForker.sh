@@ -1,5 +1,22 @@
 clear
 
+# TESTING
+
+if ! command -v gh >/dev/null 2>&1; then
+    echo "Install gh first"
+    sleep 2
+    exit 1
+fi
+
+if ! gh auth status >/dev/null 2>&1; then
+    echo "You need to login: gh auth login"
+    sleep 2
+    exit 1
+fi
+
+
+# the stuffs
+
 FAILED=false
 nameC=false
 skipName=false
