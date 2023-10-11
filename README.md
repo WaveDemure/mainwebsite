@@ -2,10 +2,8 @@
 
 GithubOverwriteForker.sh
 
-## YOU HAVE TO USE THIS BEFORE RUNNING THE SCRIPT
-
-read [here](https://github.com/WaveDemure/mywebhosyrepo/blob/main/ext/gitforker.md) then run:
+read [this](https://github.com/WaveDemure/mywebhosyrepo/blob/main/ext/gitforker.md) then run:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/WaveDemure/mywebhosyrepo/main/fork.sh)
+bash <(curl -s https://raw.githubusercontent.com/WaveDemure/mywebhosyrepo/main/GithubOverwriteForker.sh)
 ```
