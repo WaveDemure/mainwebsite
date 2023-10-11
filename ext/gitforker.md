@@ -1,4 +1,4 @@
-# SETTING UP GIT AND GH
+# SETTING UP GIT AUTH (REQUIRED)
 
 (the script wont work without lol)
 
