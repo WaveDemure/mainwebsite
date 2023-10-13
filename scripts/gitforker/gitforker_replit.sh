@@ -9,7 +9,6 @@ clear
 # Traps for exits
 traps() {
   echo
-  rm -rf !(*.sh)
   gh auth logout
   echo "Verify with gh auth status"
 }
